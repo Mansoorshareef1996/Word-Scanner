@@ -1,1 +1,4 @@
-# Word-Scanner
+## Word-Scanner
+The following python program is used to scan and process an input text stream assuming that the words in the input stream are separated by whitespaces.
+
+After reading each word, filter the word as follows: If the first letter of the word is preceded or its last letter is followed by non-alphabetical characters (punctuation marks and/or numerical digits), erase them from the word; however, if the word contains non-alphabetical characters in the middle, ignore the alphabetical characters beyond them, and if the parts of a word separated by dashes, then consider each part as a separate word. For example, the word “…William?Mary…” should be filtered as the word “William”, and the word “fish−net” should be filtered as the word “fish” and the word “net”. You also need to convert each uppercase letter to a lowercase for the final list.

@@ -1,11 +1,5 @@
 #!/usr/bin/python3
-##################################
-# Program Name : Word Scanner
-# Z-ID :Z1874994
-# Name : Mohammed Mansoor Shareef
-# Assignment Date : 02.24.2020
-# Submission Due Date : 02.27.2020
-##################################
+
 import sys
 import os
 import re
